@@ -5,3 +5,9 @@ neureka/eureka-client2/.mvn/
 neureka/eureka-client/.mvn/
 neureka/eureka-client-ribbon/.mvn/
 neureka/eureka-client-ribbon-alone/.mvn/
+neureka/eureka-client-hystrix/mvnw
+neureka/eureka-client-hystrix/mvnw.cmd
+neureka/eureka-client-hystrix/.mvn/
+neureka/eureka-hystrix/mvnw
+neureka/eureka-hystrix/mvnw.cmd
+neureka/eureka-hystrix/.mvn/

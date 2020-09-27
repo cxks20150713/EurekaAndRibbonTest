@@ -8,6 +8,16 @@
     <artifactId>neureka</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <modules>
+        <module>eureka-client2</module>
+        <module>eureka-client</module>
+        <module>eureka-client-hystrix</module>
+        <module>eureka-client-ribbon</module>
+        <module>eureka-client-ribbon-alone</module>
+        <module>eureka-server</module>
+        <module>eureka-hystrix</module>
+    </modules>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>

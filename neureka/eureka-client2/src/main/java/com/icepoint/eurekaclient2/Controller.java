@@ -13,8 +13,13 @@ public class Controller {
     private String port;
 
     @PostMapping(value = "/helloRibbon")
-    public String helloRibbon(String ipPort){
+    public String helloRibbon() {
         return "hello Ribbon" + port;
+    }
+
+    @PostMapping(value = "/helloHystrix")
+    public String helloHystrix() {
+        return "hello hystrix" + port;
     }
 
 }
